@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{pet.name}}</title>
+
+</head>
+<body>
+    <h1>{{pet.name}} The {{pet.animal_type}}</h1>
+    <h2>Age: {{pet.age}}</h2>
+    <h3>Traits: {% for trait in pet.traits%}
+        <ul>
+            <li>{{trait}}</li>
+        </ul>
+        {% endfor %}
+    </h3>
+</body>
+</html>

@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pet Compatability Testing</title>
+</head>
+<body>
+    <h1 id="title">List of Pets</h1>
+    <ul>
+        {% for pet in pets %}
+        <li>{{ pet.name }} ({{ pet.animal_type }}) - Age: {{ pet.age }}, Traits: {{ pet.traits|join(", ") }}</li>
+        {% endfor %}
+    </ul>
+</body>
+</html>
