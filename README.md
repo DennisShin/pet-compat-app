@@ -64,5 +64,9 @@ Open your browser and navigate to http://127.0.0.1:8000 to access the web applic
 
 ### API Documentation
   The API documentation is available at http://127.0.0.1:8000/docs when the application is running.
-  ![image](https://github.com/DennisShin/pet-compat-app/assets/83376929/8d7eedda-e10c-4189-8841-f24a384cb77d)
+
+  ![image](https://github.com/DennisShin/pet-compat-app/assets/83376929/265dc775-229e-4660-aacb-c7f046e2e0f8)
+
+  The API uses Jinja2 templates to show some basic information from the database. You can access this by going here: http://127.0.0.1:8000/pets/
+
 
