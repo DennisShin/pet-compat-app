@@ -69,4 +69,7 @@ Open your browser and navigate to http://127.0.0.1:8000 to access the web applic
 
   The API uses Jinja2 templates to show some basic information from the database. You can access this by going here: http://127.0.0.1:8000/pets/
 
+  ![image](https://github.com/DennisShin/pet-compat-app/assets/83376929/3149bc44-e2ad-44a8-a583-ac3bd404e8fa)
+
+
 
