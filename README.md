@@ -55,10 +55,10 @@ pipenv shell
 pip install fastapi Jinja2 sqlalchemy
 ```
 ### Usage
-Run the FastAPI application:
+Run the FastAPI application from the pet-compat-app folder:
 
 ```bash
-uvicorn main:app --reload
+uvicorn backend.main:app --reload
 Open your browser and navigate to http://127.0.0.1:8000 to access the web application.
 ```
 
