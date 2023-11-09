@@ -11,7 +11,6 @@ This is a web application built with FastAPI that allows users to manage and fin
   - [Installation](#installation)
 - [Usage](#usage)
 - [API Documentation](#api-documentation)
-- [Contributing](#contributing)
 
 ## Features
 
