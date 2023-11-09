@@ -1,3 +1,68 @@
-# Pet Compatability App
+# Pet Compatibility App
 
-First Commit
+This is a web application built with FastAPI that allows users to manage and find compatibility between pets based on their personality traits.
+
+## Table of Contents
+
+- [Features](#features)
+- [Tech Stack](#tech-stack)
+- [Getting Started](#getting-started)
+  - [Prerequisites](#prerequisites)
+  - [Installation](#installation)
+- [Usage](#usage)
+- [API Documentation](#api-documentation)
+- [Contributing](#contributing)
+- [License](#license)
+
+## Features
+
+- **User Authentication**: Allow users to register and log in.
+- **Pet Management**: Users can add, update, and delete their pets.
+- **Compatibility Check**: Determine compatibility between pets based on personality traits.
+- **API Integration**: Expose an API for interacting with pet data programmatically.
+- **Database Persistence**: Store pet data in an SQLite database using SQLAlchemy.
+- **Jinja2 Templates**: Use templates for rendering data in a simple HTML interface.
+
+## Tech Stack
+
+- **FastAPI**: Web framework for building APIs with Python 3.7+.
+- **SQLAlchemy**: SQL toolkit and Object-Relational Mapping (ORM) for Python.
+- **Jinja2**: Template engine for Python.
+- **Pydantic**: Data validation and settings management using Python type hints.
+- **SQLite**: Lightweight, file-based relational database.
+
+## Getting Started
+
+### Prerequisites
+
+- Python 3.7+
+- Pipenv (recommended for virtual environment management)
+
+### Installation
+
+1. Clone the repository:
+
+```bash
+git clone https://github.com/yourusername/pet-compatibility-app.git
+cd pet-compatibility-app
+```
+2. Create a virtual environment and install dependencies:
+
+```bash
+pipenv install
+Activate the virtual environment:
+```
+  
+```bash
+pipenv shell
+```
+### Usage
+Run the FastAPI application:
+
+```bash
+uvicorn main:app --reload
+Open your browser and navigate to http://127.0.0.1:8000 to access the web application.
+```
+
+### API Documentation
+  The API documentation is available at http://127.0.0.1:8000/docs when the application is running.
