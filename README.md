@@ -1,4 +1,4 @@
-# Pet Compatibility App
+# 🐶 Pet Compatibility App 🐶
 
 This is a web application built with FastAPI that allows users to manage and find compatibility between pets based on their personality traits.
 
