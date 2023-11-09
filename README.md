@@ -51,10 +51,8 @@ cd pet-compatibility-app
 ```bash
 pipenv install
 Activate the virtual environment:
-```
-  
-```bash
 pipenv shell
+pip install fastapi Jinja2 sqlalchemy
 ```
 ### Usage
 Run the FastAPI application:
